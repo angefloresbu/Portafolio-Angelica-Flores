@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+	--color-negro:#231F20;
+	--color-crema:#F8F0DE;
+}
+
+body {
+	font-family: "Montserrat", sans-serif;
+	font-size: 16px;
+	color: var(--color-negro);
+	background: var(--color-crema);
+}
+
+header, footer {
+	background: var(--color-negro);
+	color: var(--color-crema);
+	padding: 10px 0;
+}
+
+h1 {
+	font-size: 100px;
+}
+
+h2 {
+	font-size: 32px;
+}
+
+h3 {
+	font-size: 28px;
+}
+
+h4 {
+	font-size: 20px;
+}
+
+.title {
+	font-family: "Libre Bodoni", serif;
+}
+
+#hero {
+	color: var(--color-crema);
+}
+
+#hero .title {
+	padding-top: 350px;
+}
+
+#hero .subtitle {
+	font-size: 28px;
+}
+
+#hero-sobre, #info {
+	padding-bottom: 15px;
+}
+
+#info h5{
+	padding-top: 75px;
+}
+
+#reconocimientos {
+	padding: 15px 0;
+	background: #ADB0F9;
+}
+
+#hero-servicios{
+	background-image: url("../img/3-1.JPG");
+	background-size: cover;
+	background-position: top center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#hero-contacto{
+	background-image: url("../img/7-1.JPG");
+	background-size: cover;
+	background-position: top center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.bg-color {
+	background: var(--color-crema) !important;
+	border-radius: 25px;
+	padding: 5% 0;
+}
+
+#hero-servicios, #hero-contacto{
+	text-align: center;
+	color: var(--color-negro);
+}
+
+#hero-servicios i{
+	height: 75px;
+	width: 75px;
+	line-height: 75px;
+	background-color: #ADB0F9;
+	border-radius: 100%;
+	margin-bottom: 20px;
+	font-size: 24px;
+}
+
+#hero-contacto i{
+	font-size: 24px;
+}
+
+#hero-servicios .section{
+	padding: 2.5%;
+}
+
+#hero-contacto .section{
+	padding: 2.5%;
+}
+
+#hero-diseño, #hero-foto  .title{
+	padding: 25px 0;
+}
+
+#hero-video {
+	padding: 30px 0;
+}
+
+#hero-foto .img-fluid{
+	padding-bottom: 10px;
+}
+
+.btn{
+	border-radius: 25px;
+	letter-spacing: 1px;
+	padding: 12px 0px;
+	color: var(--color-negro);
+	background: var(--color-crema);
+}
+
+.btn:hover{
+	background: #ADB0F9;
+	color: var(--color-crema);
+}
